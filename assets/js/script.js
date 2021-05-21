@@ -1,4 +1,4 @@
-const btn = document.querySelector('button')
+const btn = document.querySelector('input[type="submit"]')
 const inputs = document.querySelector('form')
 btn.addEventListener('click', () => {
     Email.send({
